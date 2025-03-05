@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" type="img/coração.png" href="img/coração.png">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Amor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffe6e6;
+            color: #b30000;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #carousel {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+        #carousel img {
+            width: 100%;
+            display: none;
+        }
+        #carousel img.active {
+            display: block;
+        }
+        #timer {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        #quote-carousel {
+            font-style: italic;
+            font-size: 1.2em;
+            min-height: 50px;
+            transition: opacity 1s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="carousel">
+            <img src="img/1.jpg" alt="Foto 1">
+            <img src="img/2.jpg" alt="Foto 2">
+            <img src="img/3.jpg" alt="Foto 3">
+            <img src="img/4.jpg" alt="Foto 4">
+            <img src="img/5.jpg" alt="Foto 5">
+            <img src="img/6.jpg" alt="Foto 6">
+            <img src="img/7.jpg" alt="Foto 7">
+            <img src="img/8.jpg" alt="Foto 8">
+            <img src="img/9.jpg" alt="Foto 9">
+        </div>
+        <h2>Nosso Amor</h2>
+        <div id="timer"></div>
+        <div id="quote-carousel">"Quando o amor fala, a voz de todos os deuses deixa o céu embriagado de harmonia." – Shakespeare</div>
+    </div>
+    
+    <script>
+        function updateTimer(startDate) {
+            let now = new Date();
+            let diff = now - startDate;
+            
+            let seconds = Math.floor(diff / 1000) % 60;
+            let minutes = Math.floor(diff / (1000 * 60)) % 60;
+            let hours = Math.floor(diff / (1000 * 60 * 60)) % 24;
+            let days = Math.floor(diff / (1000 * 60 * 60 * 24)) % 30;
+            let months = Math.floor(diff / (1000 * 60 * 60 * 24 * 30)) % 12;
+            let years = Math.floor(diff / (1000 * 60 * 60 * 24 * 365));
+            
+            document.getElementById('timer').innerHTML = 
+                `${years} anos, ${months} meses, ${days} dias, ${hours} horas, ${minutes} minutos e ${seconds} segundos`;
+        }
+        
+        let relationshipStartDate = new Date('2024-05-19T03:00:00');
+        setInterval(() => updateTimer(relationshipStartDate), 1000);
+        
+        // Carrossel de imagens
+        let images = document.querySelectorAll('#carousel img');
+        let index = 0;
+        function showNextImage() {
+            images.forEach(img => img.classList.remove('active'));
+            images[index].classList.add('active');
+            index = (index + 1) % images.length;
+        }
+        setInterval(showNextImage, 3000);
+        
+        // Carrossel de frases
+        let quotes = [
+            "Quando o amor fala, a voz de todos os deuses deixa o céu embriagado de harmonia. – Shakespeare",
+            "O amor não vê com os olhos, mas com a mente. – Shakespeare",
+            "Duvide que as estrelas sejam fogo, duvide que o sol se mova, mas nunca duvide do meu amor. – Shakespeare"
+        ];
+        let quoteIndex = 0;
+        function showNextQuote() {
+            let quoteElement = document.getElementById('quote-carousel');
+            quoteElement.style.opacity = 0;
+            setTimeout(() => {
+                quoteElement.innerHTML = quotes[quoteIndex];
+                quoteElement.style.opacity = 1;
+                quoteIndex = (quoteIndex + 1) % quotes.length;
+            }, 1000);
+        }
+        setInterval(showNextQuote, 4000);
+    </script>
+</body>
+</html>
