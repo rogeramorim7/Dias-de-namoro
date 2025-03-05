@@ -55,10 +55,9 @@ Contribuições são bem-vindas! Se você deseja melhorar o projeto, siga estas 
 
 Feito com ❤️ por @rogeramorim7
 
-![Coverage Status](https://coveralls.io/repos/github/usuario/repositorio/badge.svg)
-![codecov](https://codecov.io/gh/usuario/repositorio/branch/main/graph/badge.svg)
-![npm version](https://img.shields.io/npm/v/nome-do-pacote)
-![npm downloads](https://img.shields.io/npm/dt/nome-do-pacote)
+
+![codecov](![image](https://github.com/user-attachments/assets/edee3fc3-f9ed-4f78-ba76-f8c9cea4ce6f))
+
 
 
 
