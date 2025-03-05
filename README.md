@@ -1,6 +1,6 @@
 # Amor Em Contagem
 
-![Build Status](https://img.shields.io/github/workflow/status/usuario/repositorio/Workflow-Name?style=plastic)
+![Build Status](https://img.shields.io/github/workflow/status/usuario/repositorio/Workflow-Name)
 
 O Amor Em Contagem é um contador de dias que permite registrar e celebrar a jornada de um relacionamento. Ele ajuda casais a visualizarem o tempo que passaram juntos, marcando cada dia como uma conquista. O projeto resolve o problema de não conseguir acompanhar de forma prática e visível o tempo que se compartilhou com quem se ama, oferecendo uma forma simbólica de celebrar o amor dia após dia.
 
