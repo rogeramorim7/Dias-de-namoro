@@ -1,6 +1,6 @@
 # Contador de relacionamento
 
-![Build Status](https://img.shields.io/github/workflow/status/usuario/repositorio/Workflow-Name)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 O Projeto é um contador de anos, meses, dias, horas, minutos e segundos que permite registrar e celebrar a jornada de um relacionamento. Ele ajuda casais a visualizarem o tempo que passaram juntos, marcando cada dia como uma conquista. O projeto resolve o problema de não conseguir acompanhar de forma prática e visível o tempo que se compartilhou com quem se ama, oferecendo uma forma simbólica de celebrar o amor dia após dia.
 
@@ -55,7 +55,11 @@ Contribuições são bem-vindas! Se você deseja melhorar o projeto, siga estas 
 
 Feito com ❤️ por @rogeramorim7
 
-![Build Status](https://img.shields.io/github/workflow/status/usuario/repositorio/Workflow-Name?style=plastic)
+![Coverage Status](https://coveralls.io/repos/github/usuario/repositorio/badge.svg)
+![codecov](https://codecov.io/gh/usuario/repositorio/branch/main/graph/badge.svg)
+![npm version](https://img.shields.io/npm/v/nome-do-pacote)
+![npm downloads](https://img.shields.io/npm/dt/nome-do-pacote)
+
 
 
 
