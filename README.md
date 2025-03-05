@@ -56,7 +56,8 @@ Contribuições são bem-vindas! Se você deseja melhorar o projeto, siga estas 
 Feito com ❤️ por @rogeramorim7
 
 
-![codecov](![image](https://github.com/user-attachments/assets/edee3fc3-f9ed-4f78-ba76-f8c9cea4ce6f))
+![codecov](https://codecov.io/gh/usuario/repositorio/branch/main/graph/badge.svg)
+
 
 
 
