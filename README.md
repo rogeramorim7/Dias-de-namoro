@@ -13,7 +13,7 @@ O Projeto é um contador de anos, meses, dias, horas, minutos e segundos que per
 
 ## Sobre
 
-Descrição do Projeto "Amor Em Contagem"
+Descrição do Projeto
 
 O Projeto é uma ferramenta digital personalizada que permite aos casais acompanhar e celebrar a evolução de seu relacionamento de maneira visual e emocional. Com este contador de dias, os usuários podem registrar o início de sua história de amor e visualizar a quantidade exata de dias vividos juntos. A cada novo dia, o contador se atualiza automaticamente, mantendo o casal sempre conectado à sua jornada compartilhada.
 Além de contar os dias, o AmorEmContagem oferece uma forma simbólica de reforçar o compromisso e a gratidão, destacando a importância de cada momento vivido. O projeto resolve a dificuldade de manter uma lembrança tangível e prática sobre o tempo juntos, proporcionando uma forma simples e significativa de celebrar a relação. Ideal para casais que desejam marcar o tempo de forma especial, reforçando o vínculo emocional e o valor dos momentos compartilhados.
