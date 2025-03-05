@@ -10,7 +10,6 @@ O Amor Em Contagem é um contador de dias que permite registrar e celebrar a jor
 - [Instalação](#instalação)
 - [Uso](#uso)
 - [Contribuindo](#contribuindo)
-- [Licença](#licença)
 
 ## Sobre
 
